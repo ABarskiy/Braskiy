@@ -142,5 +142,7 @@ def compare_components(f, g):
     else:
         print(f"{f.ram.get_speed()} MHz == {g.ram.get_speed()} MHz")
 
+f.make_sound()
+g.make_sound()
 compare_components(f, g)
 print("\nИсходя из сравнения, Macbook Pro 15 лучше, чем Macbook Pro 13, а именоо: батреей на 16 часов работы, Ghz видеокарты, Ghz процессора и Ghz ОЗУ ")
